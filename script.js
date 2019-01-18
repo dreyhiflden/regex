@@ -3,8 +3,8 @@ let regExTask1= /([0-1][0-9]|[2][0-3]):[0-5][0-9]/g;
 console.log(`Task 1 test: 23:59 return ${regExTask1.test('23:59')}`);
 
 // Task 2
-let regExTask2 = /(-?\d+|-?\d+\.\d+)\s?(\*|\/|-|\+)\s?(-?\d+\.?\d+|-?\d+)/g;
-console.log(`Task 2 test: 2 + 2 return ${regExTask2.test('2 + 2')}`);
+let regExTask2 = /(-?\d+|-?\d+\.\d+)\s+?(\*|\/|-|\+)\s+?(-?\d+\.?\d+|-?\d+)/g;
+console.log(`Task 2 test: 2 + 2 return ${regExTask2.test('2    + 2')}`);
 
 // Task 3
 function createURL(templateURL, params) {
